@@ -7,5 +7,11 @@ function toggleMode() {
     img.setAttribute("src", "./assets/sunglasses.png")
   } else {
     img.setAttribute("src", "https://github.com/vitor-martini.png")
+
+    const switchButton = document.querySelector("#switch button")
+    switchButton.classList.add("slide-out-triggered")
+    setTimeout(function () {
+      switchButton.classList.remove("slide-out-triggered")
+    }, 200)
   }
 }

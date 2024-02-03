@@ -74,15 +74,18 @@ body {
   transform: translateY(-50%);
   z-index: 1;
   left: 0;
+}
+
+.light #switch button {
+  animation: slide-in 0.2s forwards;
+}
+
+.slide-out-triggered {
   animation: slide-out 0.2s;
 }
 
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
-}
-
-.light #switch button {
-  animation: slide-in 0.2s forwards;
 }
 
 #switch span {
