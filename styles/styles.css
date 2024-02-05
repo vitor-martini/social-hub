@@ -1,6 +1,6 @@
 :root {
   --text-color: #fff;
-  --background: url(../assets/bg-desktop.jpg);
+  --background: url(../assets/dark.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.1);
@@ -10,7 +10,7 @@
 
 .light {
   --text-color: #000;
-  --background: url(../assets/bg-desktop-light.jpg);
+  --background: url(../assets/light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.1);
@@ -78,6 +78,7 @@ body {
 
 .light #switch button {
   animation: slide-in 0.2s forwards;
+  border: 1px solid var(--highlight-color);
 }
 
 .slide-out-triggered {
@@ -117,6 +118,10 @@ ul li a {
   border-radius: 8px;
   font-weight: 500;
   transition: background 0.2s;
+}
+
+ul li a p {
+  padding-right: 8px;
 }
 
 ul li a:hover {
