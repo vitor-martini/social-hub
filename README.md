@@ -1,1 +1,1 @@
-https://vitor-martini.github.io/discovery/
+https://vitor-martini.github.io/social-hub/
